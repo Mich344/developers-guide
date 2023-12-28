@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom'
 
 /* Components */
 import { Render } from '../components/render'
+import { Layout } from '../layout/layout'
 export enum Router {
   // eslint-disable-next-line no-unused-vars
   INDEX = '/',
@@ -10,7 +11,7 @@ export enum Router {
 const router = createBrowserRouter([
   {
     path: Router.INDEX,
-    element: '',
+    element: <Layout />,
     errorElement: '',
     children: [
       {
