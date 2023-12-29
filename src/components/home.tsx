@@ -35,7 +35,7 @@ export const Home = () => {
           <InputLeftElement pointerEvents="none">
             <Search2Icon color="gray.300" />
           </InputLeftElement>
-          <Input type="tel" placeholder="Phone number" />
+          <Input type="text" placeholder="Que es react?" />
         </InputGroup>
       </Stack>
     </Box>
