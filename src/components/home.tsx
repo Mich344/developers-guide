@@ -15,15 +15,6 @@ export const Home = () => {
   return (
     <Box>
       <Stack textAlign="center">
-        <Heading>Developers Guide</Heading>
-        <Text>
-          <strong>
-            <em>beta</em>
-          </strong>
-        </Text>
-      </Stack>
-
-      <Stack textAlign="center">
         <Heading>
           Developer Resource <br /> Guide
         </Heading>

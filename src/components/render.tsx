@@ -6,11 +6,15 @@ import { Home } from './home'
 import { ArticlesLanguaje } from './articlesLanguage'
 import { ArticlesFrameworks } from './articlesFrameworks'
 import { ArticlesBD } from './articlesBD'
+import { Questions } from './questions'
 
 export const Render = () => {
   return (
     <Container maxW="container.lg">
       <Home />
+      <br />
+      <br />
+      <Questions />
       <br />
       <br />
       <ArticlesLanguaje />

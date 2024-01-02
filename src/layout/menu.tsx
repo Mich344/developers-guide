@@ -24,6 +24,7 @@ import { Link as Enlace } from 'react-router-dom'
 // import Closed from '../../Icons/Svg/Closed.svg'
 // import menu from '../../Icons/Svg/Menu.svg'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { Found } from './found'
 
 const HeaderPage = () => {
   const [isTransparent, setTransparent] = useState(true)
@@ -49,6 +50,7 @@ const HeaderPage = () => {
 
   return (
     <ChakraProvider>
+      <Found />
       <Flex
         as="nav"
         align="center"
